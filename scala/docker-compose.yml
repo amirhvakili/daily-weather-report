@@ -1,0 +1,7 @@
+services:
+  report:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./output:/app/output
